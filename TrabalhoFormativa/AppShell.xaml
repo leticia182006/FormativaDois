@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="TrabalhoFormativa.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TrabalhoFormativa"
+    xmlns:Pages="clr-namespace:TrabalhoFormativa.Paginas"
+    Shell.FlyoutBehavior="Disabled"
+    Title="TrabalhoFormativa">
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style TargetType="FlyoutItem">
+                <Setter Property="Shell.BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="Shell.ForegroundColor" Value="Black" />
+                <Setter Property="Shell.TitleColor" Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+    <FlyoutItem Title="Login" Icon="home.png">
+        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate Pages:LoginPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Home" Icon="book.png">
+        <ShellContent Route="HomePage" ContentTemplate="{DataTemplate Pages:HomePage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Cadastro" Icon="fotocadastro.jpg">
+        <ShellContent Route="CadastroPage" ContentTemplate="{DataTemplate Pages:CadastroPage}" />
+    </FlyoutItem>
+</Shell>

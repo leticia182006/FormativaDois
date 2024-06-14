@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.SobreNos"
+             Title="SobreNos"
+             NavigationPage.HasNavigationBar="False">
+    
+    <VerticalStackLayout Margin="0"
+                         Padding="0"
+                         Spacing="20">
+    <Image HeightRequest="405" WidthRequest="455" Source="sobrenos"/>
+        <Label 
+            Text="A linha Tinta Nova é a escolha perfeita para quem busca personalidade e estilo na decoração de ambientes. Com uma ampla variedade de cores e tonalidades, nossas tintas são ideais para transformar qualquer parede em um verdadeiro destaque na sua casa. Seja você fã de tons neutros e discretos ou de cores vibrantes e marcantes, a linha Tinta Nova tem opções para todos os gostos. " Margin="30" FontFamily="monospace"/>
+
+        <StackLayout Orientation="Horizontal" Margin="70, -5, 10 ,0" >
+            <Button Text="Vamos lá" Margin="10"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnEntrar"
+            Clicked="btnEntrar_Clicked"/>
+
+            <Button Text="Voltar" Margin="10"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnVoltar"
+            Clicked="btnVoltar_Clicked"/>
+        </StackLayout>
+        <Image HeightRequest="65" WidthRequest="550" Source="imagemvinho" Margin="0, 0, 0 ,0"/>
+    </VerticalStackLayout>
+</ContentPage>

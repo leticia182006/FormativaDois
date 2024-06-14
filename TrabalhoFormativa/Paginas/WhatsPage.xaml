@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.WhatsPage"
+             Title="WhatsPage"
+             NavigationPage.HasNavigationBar="False">
+
+
+    <VerticalStackLayout Margin="0"
+                 Padding="0"
+                 Spacing="0">
+        <Image HeightRequest="575" WidthRequest="500" Source="whatspage"/>
+        <Label Text="Cadastrar"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Title"/>
+
+        <Label x:Name="lblNome"
+            TextColor="#1E1E1E"
+            FontSize="Subtitle"/>
+
+
+        <Entry x:Name="txtNome"
+            Text="{Binding Nome}"
+            Placeholder="nome completo" FontFamily="monospace"  Margin="30, -30, 40 ,0" 
+            Keyboard="Text"/>
+
+        <Label x:Name="lblEmail"
+            FontSize="Subtitle"
+    />
+
+        <Entry Placeholder="email" FontFamily="monospace" Margin="30, -15, 40 ,0" 
+            Text="{Binding Nome}" 
+            x:Name="txtEmail" />
+
+        <Label x:Name="lblSenha"
+            FontSize="Subtitle"  
+    />
+
+        <Entry Placeholder="senha" FontFamily="monospace" Margin="30, -15, 40 ,0"
+            Text="{Binding Nome}"
+            x:Name="txtSenha"
+            IsPassword="True"
+                         />
+
+        <StackLayout Orientation="Horizontal" Margin="80, 5, 10 ,0">
+            <Button Text="Entrar" Margin="5"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnEntrar"
+            Clicked="btnEntrar_Clicked"/>
+
+            <Button Text="Voltar" Margin="5"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnVoltar"
+            Clicked="btnVoltar_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

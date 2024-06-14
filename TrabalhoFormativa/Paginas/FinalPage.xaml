@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.FinalPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="FinalPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Margin="0"
+                     Padding="0"
+                     Spacing="0">
+        <Image HeightRequest="550" WidthRequest="600" Source="imagepaginafinal"/>
+        
+        <Label 
+    Text="Deseja mesmo comprar esse item?" Margin="15" FontSize="25" FontFamily="monospace"/>
+        <StackLayout Orientation="Horizontal" Margin="80, 5, 10 ,0">
+            <Button Text="Sim" Margin="5"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnSim"
+            Clicked="btnSim_Clicked"/>
+
+            <Button Text="Não" Margin="5"
+            FontFamily="monospace"
+            TextColor="White"
+            BackgroundColor="#1E1E1E"
+            WidthRequest="100"
+            x:Name="btnNao"
+            Clicked="btnNao_Clicked"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="40, 20, 0 , 0">
+            <ImageButton 
+            x:Name="btnX"
+            Source="twitterlogo.svg"
+            Clicked="btnX_Clicked"
+            WidthRequest="35"/>
+
+            <ImageButton 
+            x:Name="btnInstagram"
+            Source="instagram.svg"
+            Clicked="btnInstagram_Clicked"
+            WidthRequest="40"
+            Margin="100, -1, 0 , 0"/>
+
+            <ImageButton 
+            x:Name="btnWhats"
+            Source="whatsapp.svg"
+            Clicked="btnWhats_Clicked"
+            WidthRequest="40"
+            Margin="100, -1, 0 , 0"/>
+        </StackLayout>
+         
+        
+
+    </VerticalStackLayout>
+</ContentPage>

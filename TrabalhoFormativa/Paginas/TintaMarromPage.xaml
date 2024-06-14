@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.TintaMarromPage"
+             Title="TintaMarromPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Margin="0"
+                 Padding="0"
+                 Spacing="0">
+        <Image HeightRequest="108" WidthRequest="395" Source="paginacoresmarrom" />
+
+        <StackLayout Orientation="Horizontal" Margin="-295, -250, 0 , 0">
+            <ImageButton 
+            x:Name="btnTinta"
+            Source="tintamarrom"
+            Clicked="btnTinta_Clicked"
+            WidthRequest="999"/>
+        </StackLayout>
+
+        <Label Text="Cadastrar"
+            TextColor="White"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            FontSize="Title"/>
+
+        <StackLayout Orientation="Horizontal" Margin="0, 0, 0 , 0">
+            <Button Text="Avançar" Margin="5"
+             FontFamily="monospace"
+             TextColor="White"
+             BackgroundColor="#320000"
+             WidthRequest="100"
+             x:Name="btnEntrar"
+             Clicked="btnEntrar_Clicked_1"/>
+
+            <Button Text="Voltar" Margin="5"
+             FontFamily="monospace"
+             TextColor="White"
+             BackgroundColor="#320000"
+             WidthRequest="100"
+             x:Name="btnVoltar"
+             Clicked="btnVoltar_Clicked_1"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

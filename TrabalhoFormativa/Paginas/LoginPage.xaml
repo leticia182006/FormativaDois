@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.LoginPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Title="LoginPage"
+             BackgroundColor="#FFF"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout Margin="0"
+                         Padding="5"
+                         Spacing="5">
+
+        <Image HeightRequest="300" WidthRequest="400" Source="home"/>
+
+
+        <Label x:Name="lblEmail" HeightRequest="20"
+           Text="Email"
+           TextColor="White"
+           FontSize="Subtitle" />
+        
+        <Frame Padding="5" BorderColor="Transparent" CornerRadius="55">
+            <Grid>
+        <Entry x:Name="txtEmail"
+           Placeholder="E-mail..."
+           Keyboard="Email"
+           BackgroundColor="#0C4439"
+           TextColor="White"
+           FontFamily="monospace"/>
+            </Grid>
+        </Frame>
+
+        <Label x:Name="lblSenha"
+           FontSize="Subtitle"
+           Text="Senha"
+           TextColor="White"
+               Margin="-10"/>
+
+        <Frame Padding="5" BorderColor="Transparent" CornerRadius="55">
+            <Grid>
+                <Entry Placeholder="Senha..." 
+           x:Name="txtSenha"
+           BackgroundColor="#0C4439"
+           IsPassword="True"
+           TextColor="White"
+           FontFamily="monospace"/>
+            </Grid>
+        </Frame>
+
+        <Button Text="Acessar" Margin="40"
+            TextColor="#FFF" 
+            WidthRequest="200" 
+            x:Name="btnEntrar"
+           Clicked="btnEntrar_Clicked"
+            BackgroundColor="#1E1E1E"
+            FontFamily="monospace"/>
+
+        <StackLayout Orientation="Vertical" Margin="-20" >
+            <Label Text="Não tem uma conta?" HorizontalTextAlignment="Center" 
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             FontFamily="monospace"
+             />
+
+            <Button Text="Cadastre-se" FontFamily="monospace" x:Name="btnCadastrar" Clicked="btnCadastrar_Clicked"
+             BackgroundColor="#17411D"
+             WidthRequest="150"/>
+
+            <Image HeightRequest="65" WidthRequest="400" Source="loginverde" Margin="10, 130, 10 ,0"/>
+
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

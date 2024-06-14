@@ -1,0 +1,113 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TrabalhoFormativa
+build_property.ProjectDir = C:\Users\SENAIE3M\Desktop\TrabalhoFormativa\TrabalhoFormativa\TrabalhoFormativa\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/CadastroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.CadastroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\CadastroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\CadastroPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/FinalDoisPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.FinalDoisPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\FinalDoisPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\FinalDoisPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/FinalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.FinalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\FinalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\FinalPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\HomePage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/Homexplorar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.Homexplorar.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Homexplorar.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Homexplorar.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/InstagramPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.InstagramPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\InstagramPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\InstagramPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\LoginPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/SobreNos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.SobreNos.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\SobreNos.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\SobreNos.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/TintaMarromPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.TintaMarromPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\TintaMarromPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\TintaMarromPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/WhatsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.WhatsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\WhatsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\WhatsPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Paginas/XPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Paginas.XPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\XPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\XPage.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/SENAIE3M/Desktop/TrabalhoFormativa/TrabalhoFormativa/TrabalhoFormativa/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TrabalhoFormativa.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

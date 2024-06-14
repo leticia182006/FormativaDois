@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrabalhoFormativa.Paginas.Homexplorar"
+             Title="Homexplorar"
+             BackgroundColor="#FFF"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout Margin="0"
+                 Padding="0"
+                 Spacing="0">
+        <Image HeightRequest="455" WidthRequest="500" Source="paredehome"/>
+
+        <Button Text="Ver cores"
+            TextColor="#FFF"
+            Margin="30"
+            WidthRequest="170" 
+            x:Name="btnEntrar"
+            Clicked="btnEntrar_Clicked"
+            BackgroundColor="#1E1E1E"
+            FontFamily="monospace"/>
+
+        <Button Text="marrom"
+            TextColor="#FFF"
+            Margin="5"
+            WidthRequest="80" 
+            x:Name="btnAcessar"
+            Clicked="btnAcessar_Clicked"
+            BackgroundColor="#8D2900"
+            FontFamily="monospace"/>
+
+        <Button Text="Voltar"
+            TextColor="#FFF"
+            Margin="60"
+            WidthRequest="170" 
+            x:Name="btnVoltar"
+            Clicked="btnVoltar_Clicked"
+            BackgroundColor="#1E1E1E"
+            FontFamily="monospace"/>
+
+        <Image HeightRequest="70" WidthRequest="400" Source="imagemexplorarmarro" Margin="0, -10, 0 ,0"/>
+    </VerticalStackLayout>
+</ContentPage>
